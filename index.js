@@ -9,16 +9,15 @@ const lang = require('./lang/english.json'); // './lang/polish.json' if you want
 function messageResolve(id) {
     client.inbox.getMessage(5, id).then(msg => {
         console.log(chalk.cyanBright(lang.sending));
-        const Embed = new Discord.MessageEmbed()
-            .setColor('RANDOM') // Embed color
-            .setDescription(msg.content)
-            .setTitle(msg.title)
-            .setFooter(msg.user)
-            .setTimestamp(msg.date)
-            .setURL(`https://synergia.librus.pl/${msg.url}`);
-
-        hook.send(Embed, { split: true })
+        hook.send(new Discord.MessageEmbed()
+        .setColor('RANDOM') // Embed color
+        .setDescription(msg.content)
+        .setTitle(msg.title)
+        .setFooter(msg.user)
+        .setTimestamp(msg.date)
+        .setURL(`https://synergia.librus.pl/${msg.url}`))
             .catch(err => { return console.log(chalk.redBright(`Error! ${err}`)); }); // hook.send catch
+
     }).catch(err => { return console.log(chalk.redBright(`Error! ${err}`)); }); // getMessage catch
 }
 
