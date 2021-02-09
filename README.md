@@ -5,11 +5,11 @@
 4. Type `node .` in command prompt to run
 
 ## Languages
-Available languages are:
+Available languages:
 - English
 - Polish
 
 Edit 7th line in `index.js` to 
-`const lang = require('./lang/english.json');`
+- `const lang = require('./lang/english.json');`
 or
-`const lang = require('./lang/polish.json');`
+- `const lang = require('./lang/polish.json');`
