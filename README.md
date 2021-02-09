@@ -9,7 +9,6 @@ Available languages:
 - English
 - Polish
 
-Edit 7th line in `index.js` to 
+Edit 7th line in `index.js` to one of this
 - `const lang = require('./lang/english.json');`
-or
 - `const lang = require('./lang/polish.json');`
