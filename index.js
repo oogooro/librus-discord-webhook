@@ -4,7 +4,7 @@ const hook = new Discord.WebhookClient(tokens.webhookid, tokens.webhooktoken);
 const Librus = require('librus-api');
 const chalk = require('chalk');
 
-const lang = require('./lang/english.json'); // './lang/polish.json' if you want polish launguage
+const lang = require('./lang/english.json'); // './lang/polish.json' if you want polish language
 
 function messageResolve(id) {
     client.inbox.getMessage(5, id).then(msg => {
