@@ -3,8 +3,9 @@ const tokens = require('./tokens.json');
 const hook = new Discord.WebhookClient(tokens.webhookid, tokens.webhooktoken);
 const Librus = require('librus-api');
 const chalk = require('chalk');
+const cfg = require('./config.json');
 
-const lang = require('./lang/english.json'); // change this line to change language
+const lang = require(`./lang/lang_${cfg.lang}.json`);
 
 function messageResolve(id) {
     client.inbox.getMessage(5, id).then(msg => {
@@ -41,7 +42,7 @@ function findNewMessages(client) {
                 if (element.read === false) messageResolve(element.id), console.log(chalk.greenBright(lang.found + element.id));
             });
         });
-        setTimeout(() => findNewMessages(client), 30000);
+        setTimeout(() => findNewMessages(client), cfg.searchInterval);
     }).catch(err => { console.log(chalk.redBright(`Error! ${err}`)); }); // authorize catch
 }
 

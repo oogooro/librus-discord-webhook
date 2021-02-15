@@ -1,0 +1,6 @@
+{
+    "start": "Webhook is alive!",
+    "finding": "Looking for new messages...",
+    "found": "New message has been found with id ",
+    "sending": "Sending hook..."
+}
