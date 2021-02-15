@@ -15,7 +15,7 @@ Available languages:
 
 ### Search Interval (searchInterval)
 By changing the value you can change search interval in milliseconds (default 30000)
-DON'T SET IT LOWER THAN 10000
+***DON'T SET IT LOWER THAN 10000***
 
 ### Message Limit (fetchMessageLimit)
 By setting this value you can change how many new messages will be send (default 10)
