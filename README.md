@@ -12,3 +12,7 @@ Available languages:
 Edit 7th line in `index.js` to one of this
 - `const lang = require('./lang/english.json');`
 - `const lang = require('./lang/polish.json');`
+
+## Changelog 15.02.21
+- Webhook is looking for new messages instantly
+- Webhook can display messages longer than 2048
