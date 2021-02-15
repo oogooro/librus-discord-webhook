@@ -1,4 +1,5 @@
 {
     "lang": "pl",
-    "searchInterval": 30000
+    "searchInterval": 30000,
+    "fetchMessageLimit": 10
 }
