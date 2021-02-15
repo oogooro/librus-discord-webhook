@@ -10,9 +10,6 @@ Webhook dosen't need any configuration other than entering tokens, but you can t
 
 ### Language (lang)
 Available languages:
-- English
-- Polish
-
 - `en` for english
 - `pl` for polish
 
