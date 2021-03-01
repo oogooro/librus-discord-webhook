@@ -21,9 +21,3 @@ By changing the value you can change search interval in milliseconds (default 30
 By setting this value you can change how many new messages will be send (default 10)
 This is how many messages sorted by new webhook will be working on every search cycle
 You shouldn't set it lower than 3 but not higher than 20
-
-# Changelog 15.02.21
-- Webhook is looking for new messages instantly
-- Webhook can display messages longer than 2048
-- Added `config.json`
-- Configuration
