@@ -26,7 +26,6 @@ function messageResolve(id) {
         if (!rest.length) return;
 
         rest.forEach(text => {
-            console.log(text);
             embed.setDescription(text);
             hook.send(embed)
                 .catch(err => { return console.log(chalk.redBright(`Error! ${err}`)); }); // hook.send catch
