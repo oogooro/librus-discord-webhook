@@ -28,10 +28,10 @@ Z pewnych powodów ustaliłem, że dobrym pomysłem będzie zrobienie bezsensown
 Webhook sam w sobie nie potrzebuje jakiejkolwiek konfuguracji innej niż wpisanie tokenów, więc niższa część tylko dla full nerdów/hackerów.
 
 ### Język (lang)
+Języki można łatwo dodawać lub edytować zmieniając pliki w folderze `lang`.
 Języki do wybrania:
 - `pl` - język polski (obv)
 - `en` - nie zgadniesz
-Łatwo można dodawać swoje własne języki edytując lub tworząc odpowiednie pliki w folderze `lang`
 
 ### Interwał szukania wiadomości (searchInterval)
 Wartość odpowiadająca za jak często hook ma się logować za Ciebie w milisekundach.
