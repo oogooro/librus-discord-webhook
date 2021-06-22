@@ -46,3 +46,7 @@ Bez sensu ten limit bo i tak jakoś nie spowalnia mocno działania programu :shr
 
 # Podziękowania
 [Mati365](https://github.com/Mati365) - Za całkiem dobre [API](https://github.com/Mati365/librus-api), bez którego hook by nie istniał
+
+# FAQ
+- Czy można dostać bana na librusie? - *Chyba* nie. Używam go codziennie od kilku miesięcy i nic się nie dzieje
+- Mam problem, jak mogę się z Tobą skontaktować? - Discord: oogooro#8708 (uwaga anime na profilowym)
