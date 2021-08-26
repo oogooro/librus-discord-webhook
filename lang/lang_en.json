@@ -1,6 +1,8 @@
 {
-    "start": "Webhook is alive!",
-    "finding": "Looking for new messages...",
+    "searching": "Looking for new messages...",
     "found": "New message has been found with id ",
-    "sending": "Sending hook..."
+    "sending": "Sending hook...",
+    "msgError": "Could not get messages",
+    "loginError": "Could not login to Librus",
+    "loginSuccess": "Successfuly logged"
 }
