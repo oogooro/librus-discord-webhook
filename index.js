@@ -47,11 +47,10 @@ client.authorize(tokens.lubrusLogin, tokens.librusPass).then(async () => {
                     sendMessage(messageDetails);
                 }
             });
-            setTimeout(() => fetchMessages(), config.searchInterval);
         } catch (err) {
             console.log(chalk.redBright(lang.msgError));
-            console.log(chalk.redBright(err));
         }
+        setTimeout(() => fetchMessages(), config.searchInterval);
     }
     fetchMessages();
 });
