@@ -1,11 +1,11 @@
 # Hook oferuje :keyboard:
-- Automatyczne odczytanie wiadomości
+- Automatyczne odczytywanie wiadomości
 - *Fake* obecność na każdej "wysyłanej" lekcji
-- Wysłanie wiadomości na kanał Discord, gdzie możesz łatwo je wszystkie przeglądać
+- Wysłanie wiadomości na kanał Discord, gdzie można je łatwo przeglądać
 
 # Wymagania :dvd:
-- [Node.js](https://nodejs.org) koniecznie v16
-- npm >v7, który i tak przychodzi z nodem (jeśli wersja jest niska `npm i -g npm`)
+- [Node.js](https://nodejs.org) v16.6.0 lub nowsza
+- npm wersja v7.20 lub nowsza, która i tak przychodzi z nodem (jeśli wersja jest niższa `npm i -g npm`)
 
 # Jak uruchomić? :clipboard:
 ## Pierwsze uruchomienie
@@ -38,7 +38,7 @@ Domyślnie pobiera wiadomości co pół minuty więc jest bardziej niż wystarcz
 ### Limit wiadomości (fetchMessageLimit)
 Librus będzie pobierał tyle ostatnich wiadomości i sprawdzał czy nie są one już przeczytane.
 Jeśli nauczyciele wyślą 4 wiadomości, a ty masz ustawione na 3, hook pominie 1 wiadomość i ją po prostu nie przeczyta.
-Bez sensu ten limit bo i tak jakoś nie spowalnia mocno działania programu :shrug: , ale jeśli ktoś chce to ma taką opcję
+Bez sensu ten limit bo i tak jakoś nie spowalnia mocno działania programu :shrug:, ale jeśli ktoś chce to ma taką opcję
 
 # Podziękowania
 [Mati365](https://github.com/Mati365) - Za całkiem dobre [API](https://github.com/Mati365/librus-api), bez którego ten hook by nie istniał
