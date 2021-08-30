@@ -14,6 +14,13 @@
    1. librusLogin - login do librusa jak sama nazwa mówi np. `69420666u`
    2. librusPass - hasło do Twojego konta librusa
    3. webhookUrl - Url webhooka - Ustawienia kanału -> Integracje -> Webhooki -> Skopiuj adres URL webhooka
+```json
+{
+    "lubrusLogin": "69420666u",
+    "librusPass": "5up3rT4jn3Ha5l0",
+    "webhookUrl": "https://discord.com/api/webhooks/h00k1D/h00kT0k3n"
+}
+```
 4. Wpisz `node .`
 
 ## Dalsze uruchamiania
