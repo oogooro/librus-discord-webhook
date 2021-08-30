@@ -20,7 +20,7 @@ const sendMessage = message => {
         .setDescription(first)
         .setTitle(message.title)
         .setFooter(message.user)
-        .setTimestamp(msg.date)
+        .setTimestamp(message.date)
         .setURL(`https://synergia.librus.pl/${message.url}`)
 
     const embeds = [ embedTemplate ];
