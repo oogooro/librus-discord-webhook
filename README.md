@@ -5,8 +5,8 @@
 - Wysłanie wiadomości na kanał Discord, gdzie można je łatwo przeglądać
 
 # Wymagania :dvd:
-- [Node.js](https://nodejs.org) v16.6.0 lub nowsza
-- npm wersja v7.20 lub nowsza, która i tak przychodzi z nodem (jeśli wersja jest niższa `npm i -g npm`)
+- [Node.js](https://nodejs.org) v16.6.0 lub nowsza i żadna inna (jeśli masz win7 i nie możesz zainstalować to kliknij [tutaj](https://basewin.pl/) albo [tutaj](https://ubuntu.com/download), aby pobrać lepszy system)
+- npm, który i tak już przychodzi z nodem
 
 # Jak uruchomić? :clipboard:
 ## Pierwsze uruchomienie
@@ -29,7 +29,7 @@
 
 # Konfiguracja :memo:
 Z pewnych powodów ustaliłem, że dobrym pomysłem będzie zrobienie bezsensownej opcionalnej konfuguracji.
-Webhook sam w sobie nie potrzebuje jakiejkolwiek konfuguracji innej niż wpisanie tokenów, więc niższa część tylko dla full nerdów/hackerów.
+Webhook sam w sobie nie potrzebuje żadnej konfiguracji innej niż wpisanie tokenów.
 
 ### Język (lang)
 Języki można łatwo dodawać lub edytować zmieniając pliki w folderze `lang`.
