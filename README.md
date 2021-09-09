@@ -1,3 +1,4 @@
+# TO JEST WERSJA EKSPERYMENTALNA, ZMERGUJĘ NA MAINA JAK JAKIŚ NAUCZYCIEL W KOŃCU WYŚLE DŁUGĄ WIADOMOŚĆ NA KILKA EMBEDÓW
 # Hook oferuje :keyboard:
 - Automatyczne odczytywanie wiadomości
 - *Fake* obecność na każdej "wysyłanej" lekcji
