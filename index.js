@@ -14,20 +14,18 @@ const lang = require(`./lang/lang_${config.lang}.json`);
 const sendMessage = message => {
     console.log(chalk.cyanBright(lang.sending));
     const [ first, ...rest ] = message.content.match(/(.|[\r\n]){1,4000}/g);
+    const color = Math.floor(Math.random() * 899999+ 100000);
 
-    const embedTemplate = new Discord.MessageEmbed()
-        .setColor('RANDOM')
-        .setDescription(first)
+    const embed = new Discord.MessageEmbed()
+        .setColor(color)
         .setTitle(message.title)
         .setFooter(message.user)
         .setTimestamp(message.date)
         .setURL(`https://synergia.librus.pl/${message.url}`)
+        .setDescription(first);
 
-    const embeds = [ embedTemplate ];
-
-    rest?.forEach(text => embeds.push(embedTemplate.setDescription(text)));
-
-    hook.send({ embeds }).catch(err => { return console.log(chalk.redBright(err)); });
+    hook.send({ embeds: [ embed ] }).then(console.log(chalk.greenBright(lang.sentMessage + message.id))).catch(err => { return console.log(chalk.redBright(err)); });
+    rest?.forEach( text => hook.send( { embeds: [new Discord.MessageEmbed().setColor(color).setTitle(message.title).setFooter(message.user).setTimestamp().setURL(`https://synergia.librus.pl/${message.url}`).setDescription(text)] } ));
 }
 
 const client = new Librus();

@@ -2,6 +2,7 @@
     "searching": "Looking for new messages...",
     "found": "New message has been found with id ",
     "sending": "Sending hook...",
+    "sentMessage": "Sent message with id ",
     "msgError": "Could not get messages",
     "loginError": "Could not login to Librus",
     "loginSuccess": "Successfuly logged"
