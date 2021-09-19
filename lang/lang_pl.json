@@ -1,6 +1,9 @@
 {
-    "start": "Webhook jest gotowy!",
-    "finding": "Szukanie wiadomości...",
+    "searching": "Szukanie wiadomości...",
     "found": "Znaleziono nieprzeczytaną wiadomość o id ",
-    "sending": "Wysyłanie hooka..."
+    "sending": "Wysyłanie hooka...",
+    "sentMessage": "Wysłano wiadomość z id ",
+    "msgError": "Nie udało się dostać wiadomości",
+    "loginError": "Nie udało się zalogować do Librusa",
+    "loginSuccess": "Zalogowano"
 }
