@@ -4,7 +4,7 @@
 - Wysłanie wiadomości na kanał Discord, gdzie można je łatwo przeglądać
 
 # Wymagania :dvd:
-- [Node.js](https://nodejs.org) v16.6.0 lub nowsza i żadna inna (jeśli masz win7 i nie możesz zainstalować to kliknij [tutaj](https://basewin.pl/) albo [tutaj](https://ubuntu.com/download), aby pobrać lepszy system)
+- [Node.js](https://nodejs.org) LTS v16.13.0 (jeśli masz win7 i nie możesz zainstalować to kliknij [tutaj](https://basewin.pl/) albo [tutaj](https://ubuntu.com/download), aby pobrać lepszy system)
 - npm, który i tak już przychodzi z nodem
 
 # Jak uruchomić? :clipboard:
