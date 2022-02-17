@@ -1,9 +1,0 @@
-{
-    "searching": "Szukanie wiadomości...",
-    "found": "Znaleziono nieprzeczytaną wiadomość o id ",
-    "sending": "Wysyłanie hooka...",
-    "sentMessage": "Wysłano wiadomość z id ",
-    "msgError": "Nie udało się dostać wiadomości",
-    "loginError": "Nie udało się zalogować do Librusa",
-    "loginSuccess": "Zalogowano"
-}
