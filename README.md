@@ -37,22 +37,21 @@
     ```
 
 # Jak uruchomić? :clipboard:
-## Windows
-1. Otwórz plik `TEN PLIK NAJPERW OTWÓRZ.bat` ~~kmiocie~~
-   - Postępuj zgodnie z instrukcjami, czytaj uważnie *polecenia*
-2. Po zakończonej konfiguracji możesz uruchamiać hooka otwierając plik `BOT.bat`
+- Pierwsze uruchomienie
+  1. Uruchamiasz konsolę (na windowsie najlepiej wpisać `cmd` w pasku ścieżki folderu)
+  1. Wchodzisz w folder `librus-discord-webhook` jeśli trzeba
+  1. Wpisujesz i wypełniasz danymi:
+      ```
+      $ npm i
+      $ npm run init 
+      ```
+  1. Teraz możesz uruchamiać hooka poleceniem `npm run start` w ścieżce programu
+- Dalsze uruchomienia
+  1. Uruchamiasz konsolę
+  1. Wchodzisz w folder `librus-discord-webhook` jeśli trzeba
+  1. Wpisujesz `npm run start`
 
-## Linux (działa też na Windowsie)
-1. Uruchamiasz terminal
-1. Wchodzisz w folder `librus-discord-webhook`
-1. Wpisujesz i wypełniasz danymi: 
-    ```
-    $ npm i
-    $ npm run init 
-    ```
-1. Teraz możesz uruchamiać hooka poleceniem `npm run start` lub `node .` w ścieżce programu
-
-# Dodatkowa konfiguracja :memo:
+# Opcionalna dodatkowa konfiguracja :memo:
 Z pewnych powodów ustaliłem, że dobrym pomysłem będzie zrobienie bezsensownej opcionalnej konfuguracji.
 Webhook sam w sobie nie potrzebuje żadnej konfiguracji innej niż wpisanie tokenów.
 
@@ -68,7 +67,7 @@ Jeśli nauczyciele wyślą 4 wiadomości, a ty masz ustawione na 3, hook pominie
 Bez sensu ten limit bo i tak jakoś nie spowalnia mocno działania programu :shrug:, ale jeśli ktoś chce to ma taką opcję
 
 # Podziękowania
-[Mati365](https://github.com/Mati365) - Za ~~całkiem dobre~~ [API](https://github.com/Mati365/librus-api) (które i tak nie będzie za chwilę działać), bez którego ten hook by nie istniał
+[Mati365](https://github.com/Mati365) - Za ~~całkiem dobre~~ [API](https://github.com/Mati365/librus-api) bez którego ten hook by nie istniał
 
 # FAQ
 - Czy można dostać bana na librusie? - *Chyba* nie. Używam go codziennie od prawie roku i nic się nie dzieje, co nie znaczy, że Ci się nic nie stanie
