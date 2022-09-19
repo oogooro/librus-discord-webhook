@@ -1,5 +1,5 @@
 const prompts = require('prompts');
-const colors = require('colors');
+const chalk = require('chalk');
 const fs = require('fs');
 
 prompts([
@@ -22,6 +22,6 @@ prompts([
         validate: value => value.startsWith('https://discord.com/api/webhooks/') ? true : 'Proszę podać cały link do webhooka',
     },
 ]).then(response => {
-    if (!response.login || !response.pass || !response.url) return console.log('Anulowano'.red);
+    if (!response.login || !response.pass || !response.url) return console.log(chalk.redBright('Anulowano'));
     fs.writeFileSync('./tokens.json', JSON.stringify(response, null, 4));
 });

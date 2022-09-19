@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "init": "node init.js",
+    "postinstall": "node init.js",
     "start": "node ."
   },
   "author": "oogooro",
@@ -13,11 +12,11 @@
     "type": "git",
     "url": "https://github.com/oogooro/librus-discord-webhook"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "colors": "1.4.0",
+    "chalk": "^4.1.2",
     "discord.js": "^13.6.0",
-    "librus-api": "^2.5.0",
+    "librus-api": "^2.8.1",
     "prompts": "^2.4.2"
   }
 }
